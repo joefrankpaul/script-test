@@ -6,15 +6,15 @@
 // }
 alert("hello, hope ur are well?");
 
-// var randomName = getRandomName(10);
-// var guess;
-// var guessCount = 0;
-// varcorrectGuess = false
+var randomName = getRandomNumber(10);
+var guess;
+var guessCount = 0;
+varcorrectGuess = false
 
-// function getRandomName(upper){
-//     var num = Math.floor(Math.random() * upper) + 1;
-//     return num;
-// }
+function getRandomNumber(upper){
+    var num = Math.floor(Math.random(guess) * upper) + 1;
+    return num;
+}
 
 do { 
     guess = prompt('what is your name');
